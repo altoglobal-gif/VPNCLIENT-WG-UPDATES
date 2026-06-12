@@ -9,19 +9,23 @@ This repository is intentionally separate from the private source repositories s
 - Channel: `stable`
 - Manifest: `latest.json`
 - Latest version: `V.2026.24.5.0`
-- Artifact: `releases/v2026.24.5.0/VPNCLIENT-WG-V.2026.24.5.0-win-x64.msi`
+- Minimum in-app updater version: `V.2026.24.5.0`
+- Full installer artifacts are published outside this update repository.
 
 ## Client Behavior
 
-VPNCLIENT-WG reads `latest.json`, compares versions, downloads the listed MSI, verifies file size and SHA256, then asks the local background helper service to schedule the MSI patch update.
+VPNCLIENT-WG reads `latest.json`, compares versions, downloads the listed update artifact, verifies file size and SHA256, then asks the local background helper service to schedule the update.
 
 The client does not trust arbitrary downloads. The artifact path, file size, and SHA256 in the manifest are part of the release contract.
+
+Clients older than `V.2026.24.5.0` do not contain the helper-backed auto update flow. They are routed to manual update instead of opening raw MSI links.
 
 ## Publishing Checklist
 
 1. Build the Windows MSI from the private Windows source repository.
 2. Compute SHA256 and size.
 3. Update `latest.json`.
-4. Copy the MSI under `releases/<tag>/`.
-5. Commit and push this repository.
-6. Verify the raw `latest.json` URL and MSI URL return HTTP 200.
+4. Copy only update artifacts under `releases/<tag>/`.
+5. Keep full installers outside this repository.
+6. Commit and push this repository.
+7. Verify the raw `latest.json` URL and update artifact URL return HTTP 200.

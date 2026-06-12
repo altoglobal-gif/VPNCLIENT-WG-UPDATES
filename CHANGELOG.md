@@ -4,13 +4,14 @@
 
 ### Added
 
-- Published the `V.2026.24.5.0` Windows MSI for helper-backed auto update.
-- Updated `latest.json` to point to the `V.2026.24.5.0` raw MSI artifact.
+- Updated `latest.json` for the `V.2026.24.5.0` helper-backed auto update baseline.
 - Added update repository README and release note documentation.
 
 ### Changed
 
 - The manifest now supports the client-side auto update flow where VPNCLIENT-WG downloads, verifies, and asks the helper service to schedule installation.
+- Raised the minimum in-app updater version to `V.2026.24.5.0` so older clients are routed to manual update instead of opening raw MSI links.
+- Removed full MSI installers from the update repository. Full installers must be published outside this repository.
 
 ## V.2026.24.4.1 - 2026-06-12
 

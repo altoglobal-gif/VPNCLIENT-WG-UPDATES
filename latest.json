@@ -4,9 +4,9 @@
   "channel": "stable",
   "latestVersion": "V.2026.24.5.0",
   "fileVersion": "2026.24.5.0",
-  "minimumSupportedVersion": "V.2026.24.3.0",
+  "minimumSupportedVersion": "V.2026.24.5.0",
   "publishedAt": "2026-06-12T16:56:01+07:00",
-  "releaseNotesUrl": "https://github.com/altoglobal-gif/VPNCLIENT-WG/releases/tag/v2026.24.5.0",
+  "releaseNotesUrl": "https://github.com/altoglobal-gif/VPNCLIENT-WG/blob/master/docs/RELEASE_NOTES_v2026.24.5.0.md",
   "manifestUrl": "https://api.github.com/repos/altoglobal-gif/VPNCLIENT-WG-UPDATES/contents/latest.json?ref=main",
   "artifact": {
     "type": "msi",
