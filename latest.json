@@ -11,10 +11,10 @@
   "artifact": {
     "type": "msi",
     "platform": "win-x64",
-    "fileName": "VPNCLIENT-WG-V.2026.24.5.0-win-x64.msi",
-    "downloadUrl": "https://raw.githubusercontent.com/altoglobal-gif/VPNCLIENT-WG-UPDATES/main/releases/v2026.24.5.0/VPNCLIENT-WG-V.2026.24.5.0-win-x64.msi",
-    "sha256": "A852BEC88368B14B6042B6D51DC3F44AE51A32CB16DE6D8170AEDCE9D7CB4375",
-    "sizeBytes": 95780864
+    "fileName": "",
+    "downloadUrl": "",
+    "sha256": "",
+    "sizeBytes": 0
   },
   "updatePolicy": {
     "requiresAdmin": true,
