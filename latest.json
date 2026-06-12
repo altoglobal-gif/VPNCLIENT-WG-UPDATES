@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "appId": "VPNCLIENT-WG",
   "channel": "stable",
-  "latestVersion": "V.2026.24.4.1",
-  "fileVersion": "2026.24.4.1",
+  "latestVersion": "V.2026.24.5.0",
+  "fileVersion": "2026.24.5.0",
   "minimumSupportedVersion": "V.2026.24.3.0",
-  "publishedAt": "2026-06-12T16:22:28+07:00",
-  "releaseNotesUrl": "https://github.com/altoglobal-gif/VPNCLIENT-WG/releases/tag/v2026.24.4.1",
+  "publishedAt": "2026-06-12T16:56:01+07:00",
+  "releaseNotesUrl": "https://github.com/altoglobal-gif/VPNCLIENT-WG/releases/tag/v2026.24.5.0",
   "manifestUrl": "https://api.github.com/repos/altoglobal-gif/VPNCLIENT-WG-UPDATES/contents/latest.json?ref=main",
   "artifact": {
     "type": "msi",
     "platform": "win-x64",
-    "fileName": "VPNCLIENT-WG-V.2026.24.4.1-win-x64.msi",
-    "downloadUrl": "https://raw.githubusercontent.com/altoglobal-gif/VPNCLIENT-WG-UPDATES/main/releases/v2026.24.4.1/VPNCLIENT-WG-V.2026.24.4.1-win-x64.msi",
-    "sha256": "FF87874D4EFA1E6C5960823BE1F3A11E9B827AE1DA40597BB8BF93C41960049B",
-    "sizeBytes": 95776768
+    "fileName": "VPNCLIENT-WG-V.2026.24.5.0-win-x64.msi",
+    "downloadUrl": "https://raw.githubusercontent.com/altoglobal-gif/VPNCLIENT-WG-UPDATES/main/releases/v2026.24.5.0/VPNCLIENT-WG-V.2026.24.5.0-win-x64.msi",
+    "sha256": "A852BEC88368B14B6042B6D51DC3F44AE51A32CB16DE6D8170AEDCE9D7CB4375",
+    "sizeBytes": 95780864
   },
   "updatePolicy": {
     "requiresAdmin": true,
@@ -24,6 +24,6 @@
   },
   "source": {
     "repository": "altoglobal-gif/VPNCLIENT-WG-UPDATES",
-    "tag": "v2026.24.4.1"
+    "tag": "v2026.24.5.0"
   }
 }
