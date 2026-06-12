@@ -4,7 +4,7 @@ This update mirror defines the `V.2026.24.5.0` helper-backed auto update baselin
 
 ## Artifact
 
-- File: full installer is published outside this update repository.
+- File: full installer is published outside this update repository in the main repository download area.
 - SHA256: `A852BEC88368B14B6042B6D51DC3F44AE51A32CB16DE6D8170AEDCE9D7CB4375`
 - Size: `95780864`
 
@@ -12,7 +12,7 @@ This update mirror defines the `V.2026.24.5.0` helper-backed auto update baselin
 
 - `latest.json` points stable clients to `V.2026.24.5.0`.
 - Minimum direct in-app update version is `V.2026.24.5.0`.
-- Clients older than `V.2026.24.5.0` must install this baseline manually once before future helper-backed auto updates can run inside the app.
+- Clients older than `V.2026.24.5.0` download this full baseline MSI first. After the baseline is installed, future versions can use helper-backed patch/update artifacts.
 
 ## Expected Client Flow
 

@@ -12,6 +12,7 @@
 - The manifest now supports the client-side auto update flow where VPNCLIENT-WG downloads, verifies, and asks the helper service to schedule installation.
 - Raised the minimum in-app updater version to `V.2026.24.5.0` so older clients are routed to manual update instead of opening raw MSI links.
 - Removed full MSI installers from the update repository. Full installers must be published outside this repository.
+- Pointed the bootstrap manifest artifact to the full `V.2026.24.5.0` MSI hosted in the main repository so older clients can download the baseline installer.
 
 ## V.2026.24.4.1 - 2026-06-12
 
